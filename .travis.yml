@@ -1,0 +1,29 @@
+language: python
+cache: apt
+sudo: false
+addons:
+    apt:
+        packages:
+            - language-pack-en-base
+python:
+    - 3.5
+before_install:
+    - git config --global user.email '${GIT_EMAIL}'
+    - git config --global user.name '${GIT_NAME}'
+    - git config --global push.default 'tracking'
+    - pip install --upgrade pip wheel
+install:
+    - pip install 'Nikola[extras]'
+script:
+    - git remote add upstream "https://${GH_TOKEN}@github.com/schamp/taocp"
+    - git fetch upstream
+    - nikola github_deploy -m 'Nikola auto deploy [ci skip]' || /bin/true
+    - which ghp-import
+    - ghp-import --help
+    - ghp-import -n -m 'Nikola auto deploy [ci skip]' -p -r upstream -b gh-pages  output/  || /bin/true
+    - git push -f upstream gh-pages
+      
+notifications:
+    email:
+        on_success: change
+        on_failure: always
