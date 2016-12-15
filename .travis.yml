@@ -1,5 +1,5 @@
 language: python
-cache: apt
+cache: pip
 sudo: false
 addons:
     apt:
