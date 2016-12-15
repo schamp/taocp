@@ -17,10 +17,12 @@ install:
 script:
     - git remote add upstream "https://${GH_TOKEN}@github.com/schamp/taocp"
     - git fetch upstream
+      # the initial deploy will fail because it does not pass "-f" to ghp-import, but will build in the right place
     - nikola github_deploy -m 'Nikola auto deploy [ci skip]' || /bin/true
-    - which ghp-import
-    - ghp-import --help
+    # this will create the commit, but the push will fail "cannot fast-forward" because this version of ghp-import
+    # doesn't support "-f"
     - ghp-import -n -m 'Nikola auto deploy [ci skip]' -p -r upstream -b gh-pages  output/  || /bin/true
+    # manually force the push so that it works.
     - git push -f upstream gh-pages
       
 notifications:
