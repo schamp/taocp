@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://schamp.github.com/taocp/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/2016/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/archive.html</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/categories/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/categories/cat_exercises/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/categories/chapter-0/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/categories/mathjax/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/posts/notes-on-the-exercises/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://schamp.github.com/taocp/posts/welcome/</loc>
+  <lastmod>2016-12-15T14:32:00Z</lastmod>
+ </url>
+</urlset>

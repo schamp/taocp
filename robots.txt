@@ -1,0 +1,4 @@
+Sitemap: https://schamp.github.com/taocp/sitemapindex.xml
+
+User-Agent: *
+Host: schamp.github.com

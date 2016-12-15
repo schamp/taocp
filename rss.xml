@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>TAoCP Exercises</title><link>https://schamp.github.com/taocp/</link><description>Exercises for the Art of Computer Programming</description><atom:link rel="self" href="https://schamp.github.com/taocp/rss.xml" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Thu, 15 Dec 2016 14:32:17 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Notes on the Exercises</title><link>https://schamp.github.com/taocp/posts/notes-on-the-exercises/</link><dc:creator>Andrew Schamp</dc:creator><description>&lt;ol class="arabic"&gt;&lt;li&gt;&lt;p class="first"&gt;[00] What does the rating "M20" mean?&lt;/p&gt;
+&lt;p&gt;The rating "M20" means the exercise is mathematically oriented and has an average difficulty that would take 15 to 20 minutes to answer completely.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;[10] Of what value can the exercises in a textbook be to the reader?&lt;/p&gt;
+&lt;p&gt;The exercises can ensure that a student understands the material and the background necessary for it, and can demonstrate that understanding.  For self-study, demonstration can both reinforce and prove that learning has taken place.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;[14] Prove that &lt;span class="math"&gt;\(13^3 = 2197\)&lt;/span&gt;.  Generalize your answer.&lt;/p&gt;
+&lt;p&gt;&lt;span class="math"&gt;\(13^3 = 13*13*13 = 169*13 = 2197\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;I'm not entirely sure how to generalize that...&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;[HM45] Prove that when &lt;span class="math"&gt;\(n\)&lt;/span&gt; is an integer, &lt;span class="math"&gt;\(n &amp;gt; 2\)&lt;/span&gt;, the equation &lt;span class="math"&gt;\(x^n + y^n = z^n\)&lt;/span&gt; has no solution in positive integers &lt;span class="math"&gt;\(x, y, z\)&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;See &lt;a class="reference external" href="http://www.fermatproof.com/"&gt;http://www.fermatproof.com/&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description><category>Chapter 0</category><category>mathjax</category><guid>https://schamp.github.com/taocp/posts/notes-on-the-exercises/</guid><pubDate>Thu, 15 Dec 2016 03:15:41 GMT</pubDate></item><item><title>Welcome</title><link>https://schamp.github.com/taocp/posts/welcome/</link><dc:creator>Andrew Schamp</dc:creator><description>&lt;p&gt;One item on my bucket list is to complete Knuth's "The Art of Computer Programming" along with all the exercises and proofs.  I'll be using this site to post my progress along the way.&lt;/p&gt;</description><guid>https://schamp.github.com/taocp/posts/welcome/</guid><pubDate>Wed, 14 Dec 2016 16:56:29 GMT</pubDate></item></channel></rss>
